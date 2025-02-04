@@ -1,0 +1,73 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.main-links,
+.extra-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.main-links a,
+.extra-links a {
+  padding: 10px 20px;
+  background-color: #ddd;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+}
+
+.main-links a:hover,
+.extra-links a:hover {
+  background-color: #bbb;
+}
+
+
+.struggles-page {
+  font-family: 'Roboto', sans-serif; 
+}
+
+
+body.about-page {
+  font-family: 'Open Sans', sans-serif; 
+}
+
+@keyframes bounce {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  50% {
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0;
+  }
+}
